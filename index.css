@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Fira+Sans:ital,wght@1,300&family=Lobster&family=Pacifico&family=Redressed&family=Rubik:wght@300&display=swap");
+/*
+font-family: 'Abril Fatface', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Redressed', cursive;
+font-family: 'Rubik', sans-serif;
+*/
+:root {
+  --width: 100vw;
+  --height: 110vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+}
+/* body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(75, 64, 64),
+    green,
+    teal,
+    cyan
+  );
+} */
+.header {
+  height: 10vh;
+  margin-bottom: 20px;
+}
+.header li {
+  margin-left: 50px;
+  margin-top: 20px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.header li:hover {
+  transform: scale(1.1);
+}
+
+.header li a {
+  color: rgb(9, 9, 9);
+  text-transform: capitalize;
+  transition: 0.2s;
+}
+li a:hover {
+  text-decoration: none;
+  text-shadow: 5px 5px 18px rgb(253, 4, 4);
+  border-bottom: 3px solid rgb(250, 5, 5);
+  transform: scale(1.1);
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 100vw;
+  width: 100vw;
+  height: 100vh;
+  margin: 0, auto;
+  background-color: #fff;
+  z-index: 999;
+}
+/* .container:hover {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(28, 36, 255);
+} */
+.container .box {
+  position: relative;
+  height: 42px;
+  max-width: 1100px;
+  background-color: rgb(46, 44, 46);
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0px 2px 15px #999;
+}
+.box input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: rgb(42, 41, 43);
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px 0 45px;
+  border-radius: 10px;
+}
+
+.box i {
+  position: relative;
+  z-index: 3;
+  top: 50%;
+  left: 15px;
+  right: 15px;
+  transform: translateY(-50%);
+  color: rgb(206, 28, 28);
+}
+/* .image {
+  transition: 2s;
+  transition-duration: 500;
+}
+.image:hover {
+  transform: rotateY(180deg);
+} */
+.container .image .image-box {
+  position: relative;
+  height: 400px;
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 19px;
+  margin-left: 19px;
+  box-shadow: 0px 2px 5px rgb(95, 46, 143);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container .image .image-box img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.6s linear;
+  background-size: cover;
+}
+.container .image .image-box img:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.container .image h6 {
+  position: absolute;
+  bottom: 5px;
+  left: 90px;
+  transform: translate(-50%, -50%);
+  color: rgb(251, 243, 243);
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-weight: 1000;
+  text-shadow: 2px 2px 5px rgb(49, 27, 219);
+  transition: 0.5s linear;
+}
+.container .image h6:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+/* .card {
+  height: 400px;
+  width: 250px;
+}
+.card:hover {
+  width: 800px;
+  background: red;
+  border: 5px solid black;
+  border-radius: 100px;
+} */
