@@ -11,14 +11,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!----mag css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <div class="header">
     <!-- <img src="image/logo.png" height="60px" width="auto"> -->
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Movies</a></li>
+    <li><a href="#"><i class="glyphicon glyphicon-home bg-darken"></i>Home</a></li>
+    <li><a href="#">Memes</a></li>
    <li><a href="#">About</a></li>
+   <li class="login"><a href="#">signup</a></li>
+   <li class="login"><a href="#">Login</a></li>
   </div>
   <div class="container">
     <div class="box">
@@ -26,15 +29,28 @@
       <input type="text" class="search-input" placeholder="search Your Superhero">
       
     </div>
+    <main class="filter-btn">
+        <ul class="control">
+          <li class="button "  id="active" daṭa-filter="all">ALL</li>
+          <li class="button" daṭa-filter="thor">Thor</li>
+          <li class="button" daṭa-filter="Ironman">Iron Man</li>
+          <li class="button" daṭa-filter="Batman">Batman</li>
+          <li class="button" daṭa-filter="captainamreica">Marvel</li>
+          <li class="button" daṭa-filter="captainamreica">DC</li>
+        </ul>
+      </main>
     <div class="image">
       <div class="image-box" data-name="Spiderman">
-        <img src="image/man.jpg" alt=""/>
+        <a href="image/man.jpg" class="image1">
+          <img src="image/man.jpg" alt=""/>
           <h6>Spiderman</h6>
+        </a>
             
       </div>
      <div class="image-box" data-name="Ironrman">
-        <img src="image/ir2.jpg" alt=""/>
-            <h6>Ironrman</h6>
+        <a href="image/ir2.jpg" class="image1">
+          <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6></a>
      </div>
       <div class="image-box" data-name="Ironrman">
         <img src="image/ir3.jpg" alt=""/>
@@ -115,9 +131,56 @@
       <div class="image-box" data-name="Ironrman">
           <img src="image/zamdc.jpg" alt="">
               <h6>Sahzam</h6>
-      </div>     
+      </div>
+      <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>     
+     <div class="image-box" data-name="Ironrman">
+        <img src="image/ir2.jpg" alt=""/>
+            <h6>Ironrman</h6>
+     </div>
   </div>
+<section href="#">
 
+</section>
 </body>
+<!--jquery cdn link-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!---magnification popup-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script src="index.js"></script>
 </html>

@@ -65,23 +65,24 @@ li a:hover {
   width: 100vw;
   height: 100vh;
   margin: 0, auto;
-  background-color: #fff;
+  background-color: rgb(253, 251, 251);
   z-index: 999;
 }
-/* .container:hover {
+.container:hover {
   border: none;
   border-radius: 10px;
-  background-color: rgb(28, 36, 255);
-} */
+  
+}
 .container .box {
   position: relative;
-  height: 42px;
+  height: 30px;
   max-width: 1100px;
-  background-color: rgb(46, 44, 46);
+  background-color: rgb(63, 61, 63);
   margin: 0 auto;
   border-radius: 10px;
   margin-bottom: 40px;
-  box-shadow: 0px 2px 15px #999;
+  box-shadow: 0px 2px 15px rgb(246, 9, 9);
+  background-color: rgb(68, 7, 251);
 }
 .box input {
   position: absolute;
@@ -107,13 +108,11 @@ li a:hover {
   transform: translateY(-50%);
   color: rgb(206, 28, 28);
 }
-/* .image {
+.image {
   transition: 2s;
-  transition-duration: 500;
+  transition-duration: 5000;
 }
-.image:hover {
-  transform: rotateY(180deg);
-} */
+
 .container .image .image-box {
   position: relative;
   height: 400px;
@@ -163,15 +162,50 @@ li a:hover {
   transition: 0.5s linear;
 }
 .container .image h6:hover {
-  transform: translate(-50%, -50%) scale(1.1);
+  transform: translate(-50%, -50%) ,scale(0.98);
 }
-/* .card {
-  height: 400px;
-  width: 250px;
+.filter-btn
+{
+  max-height: px;
+  padding-bottom: 10px;
 }
-.card:hover {
-  width: 800px;
-  background: red;
-  border: 5px solid black;
-  border-radius: 100px;
-} */
+.filter-btn .control
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  list-style: none;
+}
+.filter-btn .control .button
+{
+  height: 40px;
+  width: 140px;
+  background-color: #fff;
+  color: rgb(9, 9, 9);
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px orange;
+  text-transform: uppercase;
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.filter-btn .control .button:hover
+{
+  background-color:orange;
+  transform: scale(0.90);
+
+}
+#active
+{
+  background-color:orange;
+}
+
+
+
